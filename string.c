@@ -9,6 +9,11 @@ int main(){
     // }printf("\n");
     
     printf("%s\n", nome);
+
+    char nome2[20];
+    printf("Digite seu nome: ");
+    fgets(nome2, 20, stdin);
+    printf("%s\n", nome2);
     
     return 0;
 }
